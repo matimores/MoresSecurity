@@ -1,0 +1,17 @@
+.widgetCarrito {
+  position: absolute;
+  width: 40px;
+  margin-left: 85%;
+  
+  bottom: 15px;
+  padding: 5px;
+  
+}
+.divContador {
+  width: 100%;
+}
+.contador {
+  font-size: 15px;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}

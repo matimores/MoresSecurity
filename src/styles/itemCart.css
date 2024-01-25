@@ -1,0 +1,15 @@
+.itemCart{
+    
+    padding: 10px;
+    height: auto;
+    
+}
+.imgItemCart{
+    width: 15vw;
+    margin-top: 30px;
+    margin-bottom: 5vh;
+}
+.btnItemCartEliminar{
+    background-color: white;
+    color: black;
+}

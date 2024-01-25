@@ -1,0 +1,57 @@
+.divSinElementos {
+  display: block;
+  text-align: center;
+  background-color: white;
+  margin-top: 20vh;
+  padding: 80px;
+  height: 80vh;
+}
+
+/* button comprar */
+
+.btnCart {
+  width: 180px;
+  height: 40px;
+  background-image: linear-gradient(rgb(214, 202, 254), rgb(158, 129, 254));
+  border: none;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 1px 3px 0px rgb(139, 113, 255);
+  transition-duration: 0.3s;
+}
+
+.cartIcon {
+  width: 14px;
+  height: fit-content;
+}
+
+.cartIcon path {
+  fill: white;
+}
+
+.btnCart:active {
+  transform: translate(2px, 0px);
+  box-shadow: 0px 1px 0px rgb(139, 113, 255);
+  padding-bottom: 1px;
+}
+
+/* termina button comprar */
+
+.divCart {
+  background-color: rgb(253, 252, 252);
+  width: 40%;
+  height: auto;
+  margin-bottom: 15vh;
+  margin-top: 30vh;
+  margin-left: 30%;
+  text-align: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.btnCompra {
+  background-color: rgb(35, 124, 224);
+  border: none;
+}

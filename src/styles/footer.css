@@ -1,0 +1,61 @@
+.footer{
+    position: relative;
+    border-top: black 2px solid;
+    background-color: rgba(0, 0, 0, 0.534);
+    height: auto;
+    
+
+    
+    
+}
+.divInfo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.infoDiv{
+    width: 15%;
+    padding: 10px;
+    color: white;
+    
+}
+.infoTexto{
+    font-size: 20px;
+}
+
+
+.logosRedes{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 2vh;
+
+}
+
+.logo1 {
+    width: 3vw;
+}
+.logo2{
+    width: 3vw;
+}
+.logo1:hover{
+    background: linear-gradient(0deg, rgba(208,65,22,1) 0%, rgba(210,22,206,1) 47%, rgba(55,50,217,1) 100%);
+    border-radius: 10px;
+}
+.logo2:hover{
+    background: radial-gradient(circle, rgba(138,230,107,1) 0%, rgba(74,236,9,0.8883928571428571) 100%, rgba(0,0,0,1) 100%);
+    border-radius: 18px;
+}
+
+.derecho{
+   position: relative;
+    text-align: center;
+    margin-top: 3vh;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    
+    
+}

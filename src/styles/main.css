@@ -1,0 +1,66 @@
+.mainInicio {
+  background-image: url(../../public/imgPages/camaras.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 130vh;
+  padding: 200px;
+}
+.Inicio {
+  display: block;
+  margin-left: 5%;
+  width: 90%;
+  
+}
+
+.detalleInicio {
+  text-align: center;
+  margin-left: 1%;
+  padding: 50px;
+  border-radius: 15px;
+  margin-bottom: 5vh;
+  background-color: rgba(128, 128, 128, 0.473);
+}
+.tituloInicio {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.infoInicio {
+  color: black;
+  padding: 15px;
+}
+
+/* bnt contacto */
+
+.buttonInicio {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(0 107 179);
+  border-radius: 9999px;
+  width: 15vw;
+  color: #ffff;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+
+.buttonInicio:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+/* fin btn contacto */
+
+.imgInicio {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}

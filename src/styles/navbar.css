@@ -1,0 +1,61 @@
+.navbar {
+  position: fixed;
+
+  top: 0px;
+  z-index: 1000;
+  border-bottom: black 0.5px solid;
+  box-shadow: -5px 10px 20px -5px black;
+  width: 100%;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+}
+.navbar-brand {
+  background-color: white;
+  width: 9vw;
+}
+.navbar-brand img {
+  width: 9vw;
+}
+.collapse {
+  display: inline;
+  justify-content: end;
+}
+.navbar-nav {
+  margin-right: 10px;
+  align-items: center;
+}
+.link {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-right: 50px;
+  height: 5vh;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(35, 106, 238);
+}
+
+/*  BUTTON CONTACTO  */
+
+.shadow_btn {
+  width: 12vw;
+  border: none;
+  font-size: 15px;
+  color: #fdfcfc;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  margin-top: 12px;
+  background: rgb(0, 140, 255);
+  box-shadow: 0 0 25px rgb(0, 140, 255);
+}
+
+
+
+.shadow_btn:hover {
+  box-shadow: 0 0 5px rgb(0, 140, 255), 0 0 25px rgb(0, 140, 255),
+    0 0 50px rgb(0, 140, 255), 0 0 100px rgb(0, 140, 255);
+}
