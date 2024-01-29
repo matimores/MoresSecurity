@@ -1,28 +1,17 @@
 import React, { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+
 
 import "react-toastify/dist/ReactToastify.css";
 
 function ItemCount({ stock, onAdd }) {
   const [count, setCount] = useState(0);
 
-  const toastify = () =>
-    toast("Producto Agregado ", {
-      autoClose: 600,
-      className: "toastify",
-      hideProgressBar: true,
-      theme: "dark",
-      position: "bottom-right",
-      closeButton: false,
-      style: {
-        background: "rgb(0,140,255)",
-      },
-    });
+  
   const onadd = () => onAdd(count);
 
   function button() {
-    onadd();
-    toastify();
+    onadd()
+    
   }
 
   function Incrementar() {
@@ -60,7 +49,7 @@ function ItemCount({ stock, onAdd }) {
         <button disabled={stock <= 0} onClick={() => button()} className="add">
           AGREGAR AL CARRITO
         </button>
-        <ToastContainer />
+        
       </div>
     </>
   );
