@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 
-import "react-toastify/dist/ReactToastify.css";
+
 
 function ItemCount({ stock, onAdd }) {
   const [count, setCount] = useState(0);
@@ -9,10 +9,7 @@ function ItemCount({ stock, onAdd }) {
   
   const onadd = () => onAdd(count);
 
-  function button() {
-    onadd()
-    
-  }
+ 
 
   function Incrementar() {
     if (count < 5) {
@@ -46,7 +43,7 @@ function ItemCount({ stock, onAdd }) {
           </button>
         </div>
 
-        <button disabled={stock <= 0} onClick={() => button()} className="add">
+        <button disabled={stock <= 0} onClick={() => onAdd()} className="add">
           AGREGAR AL CARRITO
         </button>
         
